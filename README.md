@@ -11,7 +11,7 @@ I have also set up a local data pipeline, including scripts for automating the f
 Given that I have more or less automated to the process of data retrieval and cleaning, I plan on adding to this project in the future to focus on different samples of YouTube channels.
 
 
-## Pipeline
+## Process Outline
 |Step|Task|Description|
 |--|--|--|
 |1|Data Querying|Specify desired fields for retrieval, query API for desired info|
@@ -19,4 +19,25 @@ Given that I have more or less automated to the process of data retrieval and cl
 |3|Preprocessing|Prepare data for analysis by removing any null entries using normalization techniques, dtype conversions, and NLP on text fields. Which operations are performed are specified by a few input parameters, then save result in csv format|
 |4|Analysis|Using the prepared and cleaned data for data visualization and statistical analyses|
 
+
+## Data Selection Criteria
+The process for selecting YouTube channels was done manually, through a mix of suggestions from chatGPT, channels I am familiar with, or notable figures on the platform (either currently or historically). My goal was to compile a dataset that includes at least one or more creators from a wide range of genres, including but not limited to:
+
+- News
+- Sports
+- Gaming
+- Music
+- Lifestyle/vlog
+- Animation/Art
+- Commentary/video essay
+- Documentary
+- Beauty
+- ASMR
+- Comedy
+- Entertainment
+- Television/network
+
+The channels selected all fit the following criteria:
+- \> 1,000,000 subscribers
+- primarily English-speaking or their audience is primarily English-speaking
 
